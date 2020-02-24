@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView accTextView = (TextView) findViewById(R.id.Accuracy);
 
-        latTextView.setText("Latitudeaerfawer: " + location.getLatitude());
+        latTextView.setText("Latitude: " + location.getLatitude());
 
         lonTextView.setText("Longitude: " + location.getLongitude());
 
